@@ -1,0 +1,108 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+div.container {
+  max-width: 60em;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+h3,
+h4 {
+  /*font-family: 'Helvetica', Calibri, sans-serif;*/
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  clear: both;
+  color: black;
+}
+h2 {
+  font-family: basic-sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+
+body {
+  color: #333;
+  background: #fafafa;
+  font-size: 1em;
+  max-width: 36em;
+  outline: 2px;
+  margin: 3em 2em;
+  padding-bottom: 1em;
+  line-height: 1.6em;
+}
+p,
+li,
+ol {
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*font-family: Helvetica, Calibri, sans-serif;*/
+}
+
+ul {
+  padding: 0em;
+  margin: 0;
+}
+
+ol {
+  padding: 0em;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin-top: 1em;
+  padding: 0em 0 0 0;
+}
+
+li,
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.6em;
+  clear: both;
+    color: black
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+nav {
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-family: basic-sans, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.2em;
+  margin-top: 2em;
+    
+}
+
+ul,
+li,
+a {
+  color: darkgreen;
+}
+
+nav, 
+ul, 
+li {
+  display: inline-block;
+  font-weight: bold;
+}
